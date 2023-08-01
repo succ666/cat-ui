@@ -11,6 +11,8 @@
 // Document
 //
 // Change from `box-sizing: content-box` so that `width` is not affected by `padding` or `border`.
+@import 'variables';
+
 *,
 *::before,
 *::after {
