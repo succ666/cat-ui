@@ -6,21 +6,20 @@ function App() {
   return (
     <div>
       <header>
-        <Button disabled>button</Button>
+        <Button >button</Button>
         <Button btnType={ButtonType.Default} size={ButtonSize.Large}>button</Button>
         <Button btnType={ButtonType.Danger} size={ButtonSize.Small}>button</Button>
-
-        <Button 
-          btnType={ButtonType.Link} 
-          size={ButtonSize.Large} 
-          href='www.baidu.com'>
+        <Button
+          btnType={ButtonType.Link}
+          size={ButtonSize.Large}
+          target="_blank"
+          href='http://www.baidu.com'>
           百度
         </Button>
-
-        <Button 
+        <Button
           disabled
-          btnType={ButtonType.Link} 
-          size={ButtonSize.Large} 
+          btnType={ButtonType.Link}
+          size={ButtonSize.Large}
           href='www.baidu.com'>
           百度
         </Button>
