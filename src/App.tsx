@@ -4,11 +4,12 @@ import Button, {ButtonSize, ButtonType}  from './components/Button/button';
 import Menu from "./components/Menu/menu";
 import MenuItem from "./components/Menu/menuItem";
 import SubMenu from "./components/Menu/subMenu";
-
+import Icon from './components/Icon/icon'
 function App() {
   return (
     <div>
       <header>
+        <Icon icon="angle-down" theme="primary" className="arrow-icon"/>
         <Menu mode="vertical" defaultOpenSubMenus={['3','香蕉5']} onSelect={ (val) => { console.log( val)}}>
           <MenuItem>
             香蕉1
