@@ -8,18 +8,18 @@ function App() {
   return (
     <div>
       <header>
-        <Menu defaultIndex={0}>
-          <MenuItem>
-            香蕉
+        <Menu defaultIndex={0} mode="vertical">
+          <MenuItem index={0}>
+            香蕉1
           </MenuItem>
-          <MenuItem>
-            香蕉
+          <MenuItem index={1}>
+            香蕉2
           </MenuItem>
-          <MenuItem>
-            香蕉
+          <MenuItem index={2}>
+            香蕉3
           </MenuItem>
-          <MenuItem>
-            香蕉
+          <MenuItem index={3}>
+            香蕉4
           </MenuItem>
         </Menu>
         <Button >button</Button>
