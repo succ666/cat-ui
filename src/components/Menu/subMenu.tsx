@@ -1,4 +1,4 @@
-import React, {useState, useContext, FunctionComponentElement, useEffect} from "react";
+import React, {useState, useContext, FunctionComponentElement} from "react";
 import classNames from "classnames";
 import {MenuContext} from "./menu";
 import {MenuItemProps} from "./menuItem";

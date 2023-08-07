@@ -10,7 +10,7 @@ function App() {
     <div>
       <header>
         <Icon icon="angle-down" theme="primary" className="arrow-icon"/>
-        <Menu mode="vertical" defaultOpenSubMenus={['3','香蕉5']} onSelect={ (val) => { console.log( val)}}>
+        <Menu mode="horizontal" defaultOpenSubMenus={['3','香蕉5']} onSelect={ (val) => { console.log( val)}}>
           <MenuItem>
             香蕉1
           </MenuItem>
